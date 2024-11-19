@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login page test case executed successfully .............]]>
+    </line>
+    <line>
+      <![CDATA[Add to cart test case executed successfully.............]]>
+    </line>
+    <line>
+      <![CDATA[Checkout functionality is tested successfully...............]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed successfully............]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-12T17:59:09 IST" name="Default suite" finished-at="2024-11-12T17:59:22 IST" duration-ms="12530">
+    <groups>
+    </groups>
+    <test started-at="2024-11-12T17:59:09 IST" name="Default test" finished-at="2024-11-12T17:59:22 IST" duration-ms="12530">
+      <class name="page.object.model.WithotPageFactory.TestCases">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:page.object.model.WithotPageFactory.TestCases@7b98f307]" started-at="2024-11-12T17:59:09 IST" name="initialization" finished-at="2024-11-12T17:59:19 IST" duration-ms="10322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="executeTestLogin()[pri:1, instance:page.object.model.WithotPageFactory.TestCases@7b98f307]" started-at="2024-11-12T17:59:19 IST" name="executeTestLogin" finished-at="2024-11-12T17:59:20 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page test case executed successfully .............]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executeTestLogin -->
+        <test-method signature="executeTestAddToCart()[pri:2, instance:page.object.model.WithotPageFactory.TestCases@7b98f307]" started-at="2024-11-12T17:59:20 IST" name="executeTestAddToCart" finished-at="2024-11-12T17:59:20 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add to cart test case executed successfully.............]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executeTestAddToCart -->
+        <test-method signature="executeTestCheckOut()[pri:3, instance:page.object.model.WithotPageFactory.TestCases@7b98f307]" started-at="2024-11-12T17:59:20 IST" name="executeTestCheckOut" finished-at="2024-11-12T17:59:21 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkout functionality is tested successfully...............]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executeTestCheckOut -->
+        <test-method signature="close()[pri:4, instance:page.object.model.WithotPageFactory.TestCases@7b98f307]" started-at="2024-11-12T17:59:21 IST" name="close" finished-at="2024-11-12T17:59:22 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closed successfully............]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- page.object.model.WithotPageFactory.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
